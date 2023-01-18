@@ -1,0 +1,50 @@
+
+CREATE TABLE student_usict(
+    Enrollment_Number INT NOT NULL,
+    First_Name VARCHAR(45) NOT NULL,
+    Middle_Name VARCHAR(45),
+    Last_Name VARCHAR(45),
+    Mobile_Number VARCHAR(10) NOT NULL,
+    City VARCHAR(45) NOT NULL,
+    State VARCHAR(45) NOT NULL,
+    Country VARCHAR(45) NOT NULL,
+    Age INT NOT NULL,
+    Hostel_Alloted VARCHAR(45) NOT NULL,
+    PRIMARY KEY(Enrollment_Number));
+
+ALTER TABLE student_usict
+    Modify Enrollment_Number BIGINT;
+INSERT INTO student_usict(Enrollment_Number, First_Name, Middle_name, Last_Name, Mobile_Number, City, State, Country, Age, Hostel_Alloted)
+    VALUE   (4522, 'Sachin','', 'Yadav', 8376996179, 'Delhi', 'New Delhi', 'India', 19, 'Aravali'),
+    (4523, 'Adarsh','', 'Tiwari', 8376996141, 'Delhi', 'New Delhi', 'India', 19, 'Aravali'),
+    (4526, 'Pranav', '', 8376945211, 'Delhi', 'New Delhi', 'India', 19, 'Aravali'),
+    (4524, 'Mohit','', 'Kumar', 7824591642, 'Delhi', 'New Delhi', 'India', 20, 'Hostler'),
+    (4525, 'md', '','Akmal', 9310013415, 'Delhi', 'New Delhi', 'India', 20, 'Day Scholar'),
+    (04216403221, 'Bittu', '', 'Gupta', 8376945201, 'Delhi', 'New Delhi', 'India', 19, 'Aravali'),
+    (04316403221, 'Suraj', '', 'Mishra', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (04416403221, 'abhishek', '','', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (04516403221, 'Divyansh', '','', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (04616403221, 'Somyadeep', '', 'Biswas', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (04716403221, 'Nishant', '','', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (04816403221, 'Abhishek', '', 'Pandit', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (04916403221, 'Aman', '', 'Sharma', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05016403221, 'Mohd', '', 'Aftab', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05116403221, 'Gopal', 'krushna', 'Panda', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05216403221, 'Gourav', '', 'chopra', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05416403221, 'Jony', '','', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05516403221, 'Bilal', '', 'Ali', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05616403221, 'Himanshu', '', 'Jain', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05716403221, 'Karan', '', 'Chhillar', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (05916403221, 'Abhinav', '', 'Abhishek', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (06016403221, 'Saumay', '', 'Aggarwal', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (06116403221, 'Rishabh', '', 'Singhal', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (06216403221, 'Ritwik', '', 'Singh', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (06316403221, 'Gyan', 'Prakash', 'Dev', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (20116403221, 'Jeewant', '', 'Dhingra', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (70116403221, 'Ayush', '', 'Jha', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (70216403221, 'Binisha', '', 'Pant', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (70516403221, 'Sanjib', 'Ranjan', 'Sah', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (70616403221, 'Prekshya', '', 'Bhatta', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (70716403221, 'Shaurav', '', 'Chaudhary', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar'),
+    (70816403221, 'Sumit', '', 'Raj', 8376945201, 'Delhi', 'New Delhi', 'India', 18, 'Day Scholar');
+SELECT *from student_usict;

@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "charconv": "c",
+        "span": "c",
+        "stdlib.h": "c"
+    }
+}
